@@ -1,8 +1,11 @@
 html {
     font-size: 10px;
-    background: url('./background.jpg') bottom center;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+    ), url('./background.jpg') bottom center;
     background-size: cover;
-  }
+}
   
   body,html {
     margin: 0;
